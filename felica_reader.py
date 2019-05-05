@@ -117,7 +117,7 @@ with usb1.USBContext() as context:
         #print("".join(r'\x%02X' % x for x in res))
         idm = "".join(r'%02X' % x for x in res[17:25])
         pmm = "".join(r'%02X' % x for x in res[25:33])
-        if len(res) >= 35:
+        if len(res) >= 37:
             sys = "".join(r'%02X' % x for x in res[33:35])
         else:
             sys = ""
