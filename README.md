@@ -26,3 +26,7 @@ $ pip install libusb1
 	$ python felica_reader.py
 	```
 3. FelicaカードをRC-S380の上に置く
+
+## 参考情報
+
+* [RC-S380からFeliCaカードの製造IDを読み込むプログラムを作った（Python3）](http://koikezlemma.hatenablog.com/entry/2019/05/05/234503)
